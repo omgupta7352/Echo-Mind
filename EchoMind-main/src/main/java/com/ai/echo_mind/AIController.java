@@ -18,11 +18,11 @@ public class AIController {
 
     @PostMapping("/ask")
     public ResponseEntity<String> askQuestion(@RequestBody Map<String, String> payload){
-        System.out.println("ask question starts");
+      //  System.out.println("ask question starts");
         String question = payload.get("question");
-        System.out.println("question get");
+     //   System.out.println("question get");
         String answer = qnAService.getAnswer(question);
-        System.out.println("answer get");
+     //   System.out.println("answer get");
         return ResponseEntity.ok(answer);
     }
 }
