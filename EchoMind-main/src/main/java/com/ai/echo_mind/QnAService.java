@@ -23,7 +23,7 @@ public class QnAService {
 
     public String getAnswer(String question) {
         // Construct the request payload
-        System.out.println("getans ke inside");
+     //   System.out.println("getans ke inside");
         Map<String, Object> requestBody = Map.of(
                 "contents", new Object[] {
                         Map.of("parts", new Object[] {
@@ -32,7 +32,7 @@ public class QnAService {
                 }
         );
 
-        System.out.println("api call");
+      //  System.out.println("api call");
         // Make API Call
         String response = webClient.post()
                     .uri(geminiApiUrl + geminiApiKey)
@@ -43,7 +43,7 @@ public class QnAService {
                     .block();
 
         // Return response
-        System.out.println("response dekho");
+      //  System.out.println("response dekho");
         return response;
     }
 }
