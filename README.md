@@ -78,7 +78,7 @@ Follow these steps to set up **EchoMind** locally:
         ```
     - Run the React development server:
         ```bash
-        npm start
+        npm run dev
         ```
 
 4. The app will be available at `http://localhost:5173`.
