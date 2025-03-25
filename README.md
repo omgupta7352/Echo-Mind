@@ -1,4 +1,4 @@
-# EchoMind - Intelligent AI Response App
+# EchoMind - Intelligent AI Response App :rocket: :bulb: :computer:
 
 ![ECHOMIND](echomind1.png)
 ![](echomind2.png)
